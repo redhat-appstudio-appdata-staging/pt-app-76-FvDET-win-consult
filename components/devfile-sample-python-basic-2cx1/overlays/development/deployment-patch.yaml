@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-2cx1
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/lpardo-tenant/pt-app-76/devfile-sample-python-basic-2cx1@sha256:06b25d6c0259ad35d2ae4e642204de24f606b7fce7d2624225a60fecf34a21dd
+        name: my-python
+        resources: {}
+status: {}
