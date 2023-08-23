@@ -9,7 +9,6 @@ metadata:
     app.kubernetes.io/name: devfile-sample-python-basic-2cx1
     app.kubernetes.io/part-of: pt-app-76
   name: devfile-sample-python-basic-2cx1
-  namespace: lpardo-tenant
 spec:
   replicas: 1
   revisionHistoryLimit: 0
@@ -26,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-2cx1
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-user-workloads-stage/lpardo-tenant/pt-app-76/devfile-sample-python-basic-2cx1@sha256:06b25d6c0259ad35d2ae4e642204de24f606b7fce7d2624225a60fecf34a21dd
         name: my-python
         ports:
         - containerPort: 8081

@@ -9,7 +9,6 @@ metadata:
     app.kubernetes.io/name: devfile-sample-python-basic-2cx1
     app.kubernetes.io/part-of: pt-app-76
   name: devfile-sample-python-basic-2cx1
-  namespace: lpardo-tenant
 spec:
   ports:
   - port: 8081
