@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: pt-app-76
   name: devfile-sample-python-basic-2cx1
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
